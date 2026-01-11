@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Assistir anime | Tsuki Animes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="container header-content">
+      <h1 class="logo">Tsuki Animes</h1>
+    </div>
+  </header>
+
+  <main class="anime-page">
+
+    <div id="animeBanner" class="anime-banner"></div>
+
+    <div class="player-container">
+
+      <h2 id="player-title" class="player-title">Carregando...</h2>
+
+      <div class="player-wrapper">
+        <video id="videoPlayer" controls></video>
+
+
+      </div>
+
+      <button id="nextEpisodeBtn" class="next-episode">
+        ▶ Próximo episódio
+      </button>
+
+      <section class="anime-episodes">
+        <h3>Episódios</h3>
+        <ul id="episode-list"></ul>
+      </section>
+
+    </div>
+
+  </main>
+
+
+
+  <script src="assets/js/animes.js"></script>
+  <script src="assets/js/player.js"></script>
+
+</body>
+
+</html>
